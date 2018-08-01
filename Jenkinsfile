@@ -5,7 +5,7 @@ pipeline{
 
     environment
     {
-    ARTIFACTORY_CREDS = credentials ('ci-read-aos-bint')
+    ARTIFACTORY_CREDS = credentials ('20ba63a3-225e-4dd1-98ae-7894ac44717e')
     }
 stages{
     stage('build')
